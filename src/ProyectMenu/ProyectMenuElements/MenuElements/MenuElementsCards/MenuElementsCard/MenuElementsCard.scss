@@ -1,0 +1,410 @@
+.MenuElementsCardContainer {
+    width: 30%;
+    height: 330px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 60px;
+
+
+    :hover button {
+        opacity: 1;
+
+    }
+
+    :hover .MenuElementsCardContainerDescription {
+        border-style: solid 10px;
+        border: #172345;
+    }
+}
+
+.MenuElementsCardContainerImage {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.popover {
+    margin-bottom: 10px;
+    border-width: 1px;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.MenuElementsCardContainerImageInfo {
+    background-color: #CEE6F3;
+    font-size: 12px;
+    color: #424C67;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+#LinkInfo {
+
+    width: 100%;
+    height: 100vh;
+}
+
+.MenuElementsCardContainerImageContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 0px;
+
+    button {
+        width: 15%;
+        height: 15%;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        border-style: solid;
+        border-width: 0px;
+        border-radius: 10px;
+        border-color: #4a6f69;
+        color: #424C67;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+
+    }
+
+    button:hover {
+        background-color: #84CEC2;
+        border-color: #172345;
+
+        color: #ffffff;
+
+    }
+
+
+}
+
+.MenuElementsCardContainerDescription {
+    width: 100%;
+    height: 30%;
+}
+
+.MenuElementsCardContainerDescriptionContainer {
+    width: 95%;
+    height: 100%;
+}
+
+.MenuElementsCardContainerDescriptionContainerTitle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.MenuElementsCardContainerDescriptionContainerTitlePrecio {
+    padding-top: 8px;
+}
+
+.MenuElementsCardContainerDescriptionContainerTitleH2 {
+    h2 {
+        padding-top: 8px;
+        width: 90%;
+
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+        margin: 0;
+        color: #172345;
+        text-align: start;
+    }
+
+    p {
+        margin: 0;
+        color: #172345;
+
+        margin-top: -5px;
+        font-size: 15px;
+        font-family: 'Kanit', sans-serif;
+        ;
+        font-weight: 400;
+    }
+
+}
+
+.MenuElementsCardContainerDescriptionContainerTitlePrecio {
+    p {
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+        color: #172345;
+
+    }
+}
+
+.MenuElementsCardContainerDescriptionContainerEstrellas {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+}
+
+.MenuElementsCardContainerDescriptionContainerEstrellasIcons {
+    div {
+        display: flex;
+        align-items: center;
+        color: #84CEC2;
+
+    }
+}
+
+.MenuElementsCardContainerDescriptionContainerRewies {
+    display: flex;
+    align-items: center;
+
+}
+
+.MenuElementsCardContainerDescriptionContainerRewiesContainer {
+    margin-top: 3px;
+
+    p {
+        padding-left: 5px;
+        margin: 0;
+        font-family: 'Kanit', sans-serif;
+        ;
+        font-weight: 400;
+        font-size: 13px;
+        color: #384978;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .MenuElementsCardContainerImageContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-radius: 0px;
+
+        button {
+            width: 15%;
+            height: 15%;
+            padding: 1px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            border-style: solid;
+            border-width: 0px;
+            border-radius: 10px;
+            border-color: #4a6f69;
+            color: #424C67;
+            background: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+
+        }
+
+        button:hover {
+            background-color: #84CEC2;
+            border-color: #172345;
+
+            color: #ffffff;
+
+        }
+
+
+    }
+
+    .MenuElementsCardContainer {
+        width: 50%;
+        height: 330px;
+        border-radius: 8px;
+        margin: 10px;
+        margin-bottom: 50px;
+
+        button {
+            opacity: 1;
+
+        }
+
+        :hover button {
+            opacity: 1;
+
+        }
+
+        :hover .MenuElementsCardContainerDescription {
+            border-style: solid 10px;
+            border: #172345;
+        }
+    }
+
+    .MenuElementsCardContainerImage {
+        width: 100%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+    .popover {
+        margin-bottom: 10px;
+        border-width: 1px;
+        height: 80vh;
+        border-radius: 20px;
+    }
+
+    .MenuElementsCardContainerImageInfo {
+        background-color: #CEE6F3;
+        font-size: 12px;
+        color: #424C67;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .MenuElementsCardContainerImageContainer {
+        width: 100%;
+
+
+        button {
+            opacity: 1;
+            width: 35%;
+            padding: 10px;
+            font-size: 30px;
+            margin-bottom: 10px;
+            border-style: solid;
+            border-width: 0px;
+            border-radius: 20px;
+            border-color: #4a6f69;
+            color: #4a6f69;
+            background: none;
+
+        }
+
+        button:hover {
+            background-color: #172345;
+            border-color: #172345;
+
+            color: #ffffff;
+
+        }
+
+
+    }
+
+    .MenuElementsCardContainerDescription {
+        width: 110%;
+        height: 30%;
+    }
+
+    .MenuElementsCardContainerDescriptionContainer {
+        width: 95%;
+        height: 100%;
+    }
+
+    .MenuElementsCardContainerDescriptionContainerTitle {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .MenuElementsCardContainerDescriptionContainerTitlePrecio {
+        padding-top: 8px;
+    }
+
+    .MenuElementsCardContainerDescriptionContainerTitleH2 {
+        h2 {
+            padding-top: 8px;
+            width: 70%;
+
+            font-size: 10px;
+            font-weight: 400;
+            font-family: 'Titillium Web', sans-serif;
+            margin: 0;
+            color: #172345;
+            text-align: start;
+        }
+
+        p {
+            margin: 0;
+            color: #172345;
+
+            margin-top: -5px;
+            font-size: 15px;
+            font-family: 'Kanit', sans-serif;
+            ;
+            font-weight: 400;
+        }
+
+    }
+
+    .MenuElementsCardContainerDescriptionContainerTitlePrecio {
+        p {
+            font-weight: 400;
+            font-family: 'Titillium Web', sans-serif;
+            color: #172345;
+
+        }
+    }
+
+    .MenuElementsCardContainerDescriptionContainerEstrellas {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 50px;
+    }
+
+    .MenuElementsCardContainerDescriptionContainerEstrellasIcons {
+        div {
+            display: flex;
+            align-items: center;
+            color: #84CEC2;
+
+        }
+    }
+
+    .MenuElementsCardContainerDescriptionContainerRewies {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .MenuElementsCardContainerDescriptionContainerRewiesContainer {
+        margin-top: 3px;
+
+        p {
+            padding-left: 5px;
+            margin: 0;
+            font-family: 'Kanit', sans-serif;
+            ;
+            font-weight: 400;
+            font-size: 13px;
+            color: #384978;
+
+        }
+    }
+}

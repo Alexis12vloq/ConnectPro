@@ -1,0 +1,372 @@
+.MenuInfo {
+    margin-top: 0px;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 0px;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.MenuInfoContainerImage {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.FlechaIcon {
+    margin-left: 15px;
+    font-size: 55px;
+    color: #75b9ae;
+    cursor: pointer;
+}
+
+.FlechaIcon:hover {
+    color: #172345;
+}
+
+.MenuInfoContainerImageBack {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.MenuInfoContainerInfo {
+    width: 50%;
+    height: 100%;
+}
+
+.MenuInfoContainerInfoContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.MenuInfoContainerInfoContainerTitle {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+
+    h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        font-size: 30px;
+        text-align: start;
+        color: #172345;
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+
+    }
+
+    h2 {
+        text-transform: capitalize;
+        font-family: 'Kanit', sans-serif;
+        ;
+        font-weight: 400;
+        margin: 0;
+
+        font-size: 20px;
+    }
+
+    p {
+        margin: 0;
+        font-family: 'Kanit', sans-serif;
+        ;
+        font-weight: 200;
+        color: #000000;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+}
+
+.MenuInfoContainerInfoContainerEstrellas {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.MenuInfoContainerInfoContainerEstrellasContainer {
+    display: flex;
+    align-items: center;
+    color: #84CEC2;
+}
+
+.MenuInfoContainerInfoContainerEstrellasRewies {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.MenuInfoContainerInfoContainerDescription {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+
+    h4 {
+        font-size: 18px;
+        font-family: 'Kanit', sans-serif;
+
+        font-weight: 200;
+
+
+        span {
+            font-family: 'Kanit', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+    }
+}
+
+.MenuInfoContainerInfoContainerAgregarCarrito {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MenuInfoContainerInfoContainerAgregarCarritoButton {
+    width: 40%;
+    height: 50%;
+
+    button {
+        width: 100%;
+        height: 100%;
+        border-style: solid;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #84CEC2;
+        border: none;
+
+    }
+}
+
+.Icono {
+    font-size: 30px;
+}
+
+.MenuInfoContainerInfoContainerAgregarPrice {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 30px;
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .MenuInfo {
+        margin-top: 0px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+        display: flex;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .MenuInfoContainerImage {
+        width: 100%;
+        height: 40vh;
+
+
+    }
+
+    .FlechaIcon {
+        margin-left: 15px;
+        font-size: 30px;
+        color: #75b9ae;
+        cursor: pointer;
+    }
+
+    .FlechaIcon:hover {
+        color: #172345;
+    }
+
+    .MenuInfoContainerImageBack {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    .MenuInfoContainerInfo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .MenuInfoContainerInfoContainer {
+        width: 90%;
+        margin: 0px;
+        height: 100%;
+    }
+
+    .MenuInfoContainerInfoContainerTitle {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+
+        h1 {
+            margin: 0;
+            margin-bottom: 20px;
+            margin-top: 15px;
+            font-size: 30px;
+            text-align: start;
+            color: #172345;
+            font-weight: 400;
+            font-family: 'Titillium Web', sans-serif;
+
+        }
+
+        h2 {
+            text-transform: capitalize;
+            font-family: 'Kanit', sans-serif;
+            ;
+            font-weight: 400;
+            margin: 0;
+
+            font-size: 20px;
+        }
+
+        p {
+            margin: 0;
+            font-family: 'Kanit', sans-serif;
+            ;
+            font-weight: 200;
+            color: #000000;
+            margin-top: 0px;
+            font-size: 15px;
+        }
+
+    }
+
+    .MenuInfoContainerInfoContainerEstrellas {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .MenuInfoContainerInfoContainerEstrellasContainer {
+        display: flex;
+        align-items: center;
+        color: #84CEC2;
+    }
+
+    .MenuInfoContainerInfoContainerEstrellasRewies {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+
+    .MenuInfoContainerInfoContainerDescription {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: start;
+
+        h4 {
+            font-size: 18px;
+            font-family: 'Kanit', sans-serif;
+
+            font-weight: 200;
+
+
+            span {
+                font-family: 'Kanit', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+
+            }
+        }
+    }
+
+    .MenuInfoContainerInfoContainerAgregarCarrito {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .MenuInfoContainerInfoContainerAgregarCarritoButton {
+        width: 40%;
+        height: 50%;
+
+        button {
+            width: 100%;
+            height: 100%;
+            border-style: solid;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #84CEC2;
+            border: none;
+
+        }
+    }
+
+    .Icono {
+        font-size: 30px;
+    }
+
+    .MenuInfoContainerInfoContainerAgregarPrice {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-weight: 400;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 30px;
+            margin: 0px;
+        }
+    }
+
+
+
+
+
+}

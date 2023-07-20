@@ -1,0 +1,236 @@
+.CardCarrito{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #B3B7C2;
+    
+}
+.CardCarritoContainer{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.CardCarritoContainerImage{
+    width: 90%;
+    height: 90%;
+}
+.CardCarritoContainerImageContainer{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.CardCarritoContainerTitle{
+    width: 70%;
+    height: 90%;
+    padding-left: 5px;
+}
+.CardCarritoContainerTitleContainer{
+    width: 100%;
+    height: 40%;
+   
+
+}
+.CardCarritoContainerTitleContainerH2{
+    width: 100%;
+    height: 100%;
+    color: #535C75;
+    h3{
+        margin: 0;
+        margin-top: 15px;
+        font-size: 18px;
+        
+        color: #172345;
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+ 
+    }
+    h4{
+        font-family: 'Kanit', sans-serif;;
+        font-weight: 400;
+        margin: 0;
+        
+        font-size: 15px;
+    }
+    p{
+        margin: 0;
+        font-family: 'Kanit', sans-serif;;
+        font-weight: 200;
+        color: #000000;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+}
+.CardCarritoContainerEnvio{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.CardCarritoContainerEnvioIcon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #B3B7C2;
+    p{
+        margin: 0;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+}
+.CardCarritoContainerContador{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CardCarritoContainerContadorContainer{
+    width: 35%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border-color: #cecece;
+
+    border-style: solid;
+    border-width: 1px;
+    color: #182446;
+
+}
+.CardCarritoContainerContadorContainerResta{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ 
+    color: #182446;
+
+}
+.CardCarritoContainerContadorContainerSuma{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #182446;
+}
+.CardCarritoContainerContadorContainerNumber{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    p{
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 2px;
+        color: #000000;
+    }
+}
+
+
+
+.CardCarritoContainerEliminar{
+    width: 30%;
+    height: 90%;
+    
+}
+.CardCarritoContainerEliminarContainer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.CardCarritoContainerEliminarContainerIcon{
+    color: #999999;
+    cursor: pointer;
+
+}
+.CardCarritoContainerEliminarContainerNumber{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    h4{
+        margin: 0;
+        font-size: 20px;
+        color: #3A69C1;
+    }
+    h5{
+        margin: 0;
+        padding-top: 0px;
+        font-size: 15px;
+        text-decoration:line-through ;
+        color: #999999;
+        
+    }
+}
+.CarritoTotal{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:#E9F0FC;
+    border-style: solid;
+    border-width: 0px;
+    border-top-color: #cfcdcd;
+    border-top-width: 1px;
+
+}
+.CarritoTotalContainer{
+    width:95%;
+    height: 90%;
+    display: flex;
+}
+.CarritoTotalContainerPrecio{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin: 0;
+        font-size: 25px;
+        color: #adadad;
+    }
+    h4{
+        margin: 0;
+        font-size: 20px;
+        color: #182446;
+    }
+}
+.CarritoTotalContainerButton{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        width: 90%;
+        border-radius: 20px;
+        border-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #182446;
+        color: #cecece;
+    }
+}
